@@ -1,0 +1,139 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.bgimage{
+  height: 100vh;
+}
+.bgimage2{
+  height: 100vh;
+  background-color: transparent;
+  background-image:linear-gradient(to bottom, #4f4f4f, #272c41);
+  opacity: 0.8;
+}
+.bgimage2:hover{
+  background-color: red;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+   justify-content: space-around;
+   padding-top: 30px;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.right{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+.home{
+  text-decoration: underline white;
+  cursor: pointer;
+}
+.product:hover{
+  color: rgba(255, 255, 255, 0.231);
+  text-decoration: underline rgba(255, 255, 255, 0.491);
+  cursor: pointer; 
+}
+.About:hover{
+  color: rgba(255, 255, 255, 0.231);
+  text-decoration: underline rgba(255, 255, 255, 0.491);
+  cursor: pointer; 
+}
+.para{
+  color: white;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-left: 260px;
+  font-style: inherit;
+}
+h1{
+  font-size: 70px;
+  line-height: 1.2;
+  margin-top: 20px;
+  font-style: inherit;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.btn{
+  width: 230px;
+  height: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 40px;
+  transition: all ease 0.5s;
+  border-radius: 30px;
+  border: none;
+}
+.btn:hover{
+  margin-top: 10px;
+}
+
+.para1{
+  margin-top: 20px;
+  font-style: inherit;
+  font-weight: initial;
+}
+.section1{
+  height: 100vh;
+  background-color: white;
+  font-size: 25px;
+}
+.img{
+  margin-top: 70px;
+ margin-left: 100px;
+ 
+ 
+}
+.img2{
+  width: 100%;
+  margin-top: 50px;
+}
+.h2{
+ margin-top: 30px;
+ font-size: 60px;
+  font-style: inherit;
+  font-weight: initial;
+}
+.para3{
+  margin-top: 30px; 
+  margin-left: 70px;
+  /* position: absolute; */
+  position: relative;
+  bottom: 55px;
+  padding-left: 197px; 
+  font-family:sans-serif;
+  font-style: inherit;
+}
+.div{
+  width: 100%;
+
+}
+.limeimg{
+  width: 100%;
+
+}
+.line{
+  margin-top: 40px;
+}
+.linepara{
+  width: 250px;
+  border: #272c41;
+}
+
+.feature{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-style: initial;
+  font-weight: lighter;
+}
